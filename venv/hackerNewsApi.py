@@ -16,15 +16,14 @@ def getTopPosts(minPosts):
             posts.append(newPost)
     return posts
 
+
 def checkIfStringIsValid(val):
     nonEmptyBool = val != ""
     charactersBool = len(val) < 256
-    if nonEmptyBool and charactersBool:
-        return True
-    else:
-        return False
+    return nonEmptyBool and charactersBool
 
 
+# works only if post key names are updated
 def checkPostValues(post):
     titleAndAuthorBool = checkIfStringIsValid(post['title']) & checkIfStringIsValid(post['author'])
     pointsCommentsRankBool = (post['points'] & post['comments'] & post['rank']) >= 0

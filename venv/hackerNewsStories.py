@@ -2,7 +2,7 @@ from hackerNewsApi import getTopPosts
 
 
 def main():
-    posts = getTopPosts(23)
+    posts = getTopPosts(2)
     print(posts)
 
 
