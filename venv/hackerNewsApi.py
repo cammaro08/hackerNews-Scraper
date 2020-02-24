@@ -3,10 +3,6 @@ from urllib.parse import urlparse
 
 
 def getTopPosts(minPosts):
-    if not type(minPosts) is int:
-        return "Please enter a number(integer)"
-    if (not minPosts <= 100) & (minPosts > 0):
-        return "Invalid post request. Please request posts between 0 - 100"
     posts = []
     topPostsID = getTopPostsIDs(minPosts)
     for i in range(len(topPostsID)):
@@ -44,6 +40,7 @@ def cleanPost(postRank, post):
     post.update({'rank': postRank + 1})
 
 
+# updates/creates new keys with proper names according to specification
 def updatePostKeyNames(post):
     post['author'] = post.pop('by')
     post['points'] = post.pop('score')
