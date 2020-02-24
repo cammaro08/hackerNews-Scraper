@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7008f6-52ed-4993-93df-669cbf6408e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/tests/test_hackerNewsApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/coding_test_TL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_test_TL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/hackerNewsApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/hackerNewsApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/hackernews.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/hackernews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/hackerNewsApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/src/hackerNewsApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/hackernews.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/src/hackernews.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="coding_test_TL" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="coding_test_TL" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv/tests" />
+      <recent name="$PROJECT_DIR$/venv" />
+      <recent name="$PROJECT_DIR$/venv/src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="hackernews" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -48,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/hackernews.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/src/hackernews.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +138,7 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="647" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1582579924419" />
-    <state width="1419" height="210" key="GridCell.Tab.0.bottom" timestamp="1582580823115">
+    <state width="1419" height="254" key="GridCell.Tab.0.bottom" timestamp="1582586262746">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1582552908790">
@@ -125,8 +146,8 @@
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1440.900@0.0.1440.900" timestamp="1582552908790" />
     <state width="1419" height="201" key="GridCell.Tab.0.bottom/0.23.1440.847@0.23.1440.847" timestamp="1582555324616" />
-    <state width="1419" height="210" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582580823115" />
-    <state width="1419" height="210" key="GridCell.Tab.0.center" timestamp="1582580823114">
+    <state width="1419" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582586262746" />
+    <state width="1419" height="254" key="GridCell.Tab.0.center" timestamp="1582586262745">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1582552908788">
@@ -134,8 +155,8 @@
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.center.inPresentationMode/0.0.1440.900@0.0.1440.900" timestamp="1582552908788" />
     <state width="1419" height="201" key="GridCell.Tab.0.center/0.23.1440.847@0.23.1440.847" timestamp="1582555324615" />
-    <state width="1419" height="210" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582580823114" />
-    <state width="1419" height="210" key="GridCell.Tab.0.left" timestamp="1582580823114">
+    <state width="1419" height="254" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582586262745" />
+    <state width="1419" height="254" key="GridCell.Tab.0.left" timestamp="1582586262745">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1582552908787">
@@ -143,8 +164,8 @@
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.left.inPresentationMode/0.0.1440.900@0.0.1440.900" timestamp="1582552908787" />
     <state width="1419" height="201" key="GridCell.Tab.0.left/0.23.1440.847@0.23.1440.847" timestamp="1582555324615" />
-    <state width="1419" height="210" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582580823114" />
-    <state width="1419" height="210" key="GridCell.Tab.0.right" timestamp="1582580823115">
+    <state width="1419" height="254" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582586262745" />
+    <state width="1419" height="254" key="GridCell.Tab.0.right" timestamp="1582586262745">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1582552908789">
@@ -152,31 +173,31 @@
     </state>
     <state width="1440" height="201" key="GridCell.Tab.0.right.inPresentationMode/0.0.1440.900@0.0.1440.900" timestamp="1582552908789" />
     <state width="1419" height="201" key="GridCell.Tab.0.right/0.23.1440.847@0.23.1440.847" timestamp="1582555324616" />
-    <state width="1419" height="210" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582580823115" />
-    <state width="1419" height="254" key="GridCell.Tab.1.bottom" timestamp="1582577332177">
+    <state width="1419" height="254" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582586262745" />
+    <state width="1419" height="254" key="GridCell.Tab.1.bottom" timestamp="1582586262746">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="254" key="GridCell.Tab.1.bottom/0.23.1440.847@0.23.1440.847" timestamp="1582551981770" />
-    <state width="1419" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582577332177" />
-    <state width="1419" height="254" key="GridCell.Tab.1.center" timestamp="1582577332176">
+    <state width="1419" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582586262746" />
+    <state width="1419" height="254" key="GridCell.Tab.1.center" timestamp="1582586262746">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="254" key="GridCell.Tab.1.center/0.23.1440.847@0.23.1440.847" timestamp="1582551981770" />
-    <state width="1419" height="254" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1582577332176" />
-    <state width="1419" height="254" key="GridCell.Tab.1.left" timestamp="1582577332176">
+    <state width="1419" height="254" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1582586262746" />
+    <state width="1419" height="254" key="GridCell.Tab.1.left" timestamp="1582586262746">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="254" key="GridCell.Tab.1.left/0.23.1440.847@0.23.1440.847" timestamp="1582551981769" />
-    <state width="1419" height="254" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1582577332176" />
-    <state width="1419" height="254" key="GridCell.Tab.1.right" timestamp="1582577332176">
+    <state width="1419" height="254" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1582586262746" />
+    <state width="1419" height="254" key="GridCell.Tab.1.right" timestamp="1582586262746">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="254" key="GridCell.Tab.1.right/0.23.1440.847@0.23.1440.847" timestamp="1582551981770" />
-    <state width="1419" height="254" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1582577332176" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1582463086783">
+    <state width="1419" height="254" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1582586262746" />
+    <state x="0" y="23" width="900" height="877" key="SettingsEditor" timestamp="1582584272086">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1582463086783" />
+    <state x="0" y="23" width="900" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1582584272086" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1582579856668">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
