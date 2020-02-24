@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c7008f6-52ed-4993-93df-669cbf6408e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/hackerNewsApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/hackerNewsApi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/hackernews.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/hackernews.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
