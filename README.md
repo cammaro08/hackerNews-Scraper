@@ -12,6 +12,7 @@ This is a short command line application written in python that gets the latest 
 ## General info
 If you love to stay up to date with what is hot in technology, read Hacker News every day.
 In order to make it more fun to read for robots (and me), I wrote a simple command line application that would output to STDOUT the top posts in JSON.
+
 If the post has any missing requried field, then that post is discarded from result. I could have just have print out the post with empty values but I think it would be better to just disregard them since it would makes things a little less complicated if a bot was to come across the result from my application. This is purely my design decision for this project. 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -37,7 +38,6 @@ You can only requests posts from 0 - 100
 List of features ready and TODOs for future development
 - Checks and corrects values of post fields (ex. number being passed as a list)
 - Can print out 100 top posts
-Awesome feature 3
 To-do list:
 Add more tests for more robust checking.
 Add a loading status bar when posts are being retrieved.
