@@ -1,3 +1,4 @@
+Readme file
 # Hacker News Scraper
 This is a short command line application written in python that gets the latest posts from hacker news.
 ## Table of contents
@@ -11,22 +12,31 @@ This is a short command line application written in python that gets the latest 
 ## General info
 If you love to stay up to date with what is hot in technology, read Hacker News every day.
 In order to make it more fun to read for robots (and me), I wrote a simple command line application that would output to STDOUT the top posts in JSON.
+If the post has any missing requried field, then that post is discarded from result. I could have just have print out the post with empty values but I think it would be better to just disregard them since it would makes things a little less complicated if a bot was to come across the result from my application. This is purely my design decision for this project. 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 ## Technologies
 Python - version 3.8
-requests
-urlParse
-argparse
+- requests: library to implement get requests
+- urlParse: library to check if valid URL
+- argparse: library for passing in command line arguments
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Open up terminal and navigate to your home directory
+- Install python 3.7
+- Install the required libraries
+- `pip3 install requests`
+- `pip3 install urlParse`
+- `pip3 install argparse`
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+In order to run the code
+- Navigate to the src folder of this project
+- type in this command `python3 hackernews.py --posts 101`
+You can either use --posts or -p after hackernews.py followed by a number of posts you want to return.
+You can only requests posts from 0 - 100
 ## Features
 List of features ready and TODOs for future development
-Awesome feature 1
-Awesome feature 2
+- Checks and corrects values of post fields (ex. number being passed as a list)
+- Can print out 100 top posts
 Awesome feature 3
 To-do list:
 Add more tests for more robust checking.
