@@ -14,19 +14,41 @@ def getTopPosts(minPosts):
 
 
 def checkIfStringIsValid(val):
-    nonEmptyBool = val != ""
-    charactersBool = len(val) < 256
-    return nonEmptyBool and charactersBool
+    if type(val) == str:
+        nonEmptyBool = val != ""
+        charactersBool = len(val) < 256
+        return nonEmptyBool and charactersBool
+    else:
+        return False
+
+
+def checkIfNumberIsValid(val):
+    if type(val) == int:
+        return val != ""
+    elif type(val) == list:
+        temp = val[0]
+        return temp != ""
+    else:
+        return False
 
 
 # works only if post key names are updated
 def checkPostValues(post):
-    titleAndAuthorBool = checkIfStringIsValid(post['title']) & checkIfStringIsValid(post['author'])
-    pointsCommentsRankBool = (post['points'] & post['comments'] & post['rank']) >= 0
+    if checkNullValues(post):
+        pointsCommentsRankBool = (post['points'] & post['comments'] & post['rank']) >= 0
+    else:
+        pointsCommentsRankBool = False
     urlBool = isURL(post['url'])
-    if titleAndAuthorBool and pointsCommentsRankBool and urlBool:
+    if pointsCommentsRankBool and urlBool:
         return True
     return False
+
+
+def checkNullValues(post):
+    titleAndAuthorBool = checkIfStringIsValid(post['title']) & checkIfStringIsValid(post['author'])
+    numericsBool = checkIfNumberIsValid(post['points']) \
+                   & checkIfNumberIsValid(post['comments']) & checkIfNumberIsValid([post['rank']])
+    return titleAndAuthorBool and numericsBool
 
 
 def cleanPost(postRank, post):
@@ -36,8 +58,16 @@ def cleanPost(postRank, post):
             pass
         else:
             del post[key]
+    makeAllKeysExist(post)
     updatePostKeyNames(post)
     post.update({'rank': postRank + 1})
+
+
+def makeAllKeysExist(post):
+    keysNeedToKeep = ['title', 'url', 'by', 'score', 'descendants']
+    for key in keysNeedToKeep:
+        if key not in list(post.keys()):
+            post.update({key: ""})
 
 
 # updates/creates new keys with proper names according to specification
