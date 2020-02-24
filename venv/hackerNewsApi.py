@@ -3,15 +3,18 @@ from urllib.parse import urlparse
 
 
 def getTopPosts(minPosts):
+    if not type(minPosts) is int:
+        return "Please enter a number(integer)"
+    if (not minPosts <= 100) & (minPosts > 0):
+        return "Invalid post request. Please request posts between 0 - 100"
     posts = []
     topPostsID = getTopPostsIDs(minPosts)
     for i in range(len(topPostsID)):
-        post = getPostFromID(topPostsID[i])
-        cleanPost(i, post)
-        if checkPostValues(post):
-            posts.append(post)
+        newPost = getPostFromID(topPostsID[i])
+        cleanPost(i, newPost)
+        if checkPostValues(newPost):
+            posts.append(newPost)
     return posts
-
 
 def checkIfStringIsValid(val):
     nonEmptyBool = val != ""
