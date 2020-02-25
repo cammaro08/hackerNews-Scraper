@@ -54,9 +54,10 @@ You can only requests posts from 0 - 100
 List of features ready and TODOs for future development
 - Checks and corrects values of post fields (ex. number being passed as a list)
 - Can print out 100 top posts
+
 To-do list:
-Add more tests for more robust checking.
-Add a loading status bar when posts are being retrieved.
+- Add more tests for more robust checking.
+- Add a loading status bar when posts are being retrieved.
 ## Status
 Project is: _finished_
 This is was a short project that I wrote for a take home task for a developer position.
