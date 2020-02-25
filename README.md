@@ -15,7 +15,7 @@ In order to make it more fun to read for robots (and me), I wrote a simple comma
 If the post has any missing requried field, then that post is discarded from result. I could have just have print out the post with empty values but I think it would be better to just disregard them since it would makes things a little less complicated if a bot was to come across the result from my application. This is purely my design decision for this project.
 
 *Output format*
-`
+
 [{title": "Web Scraping in 2016",
 uri": "https://franciskim.co/2016/08/24/dont-need-no-stinking-api-web-scraping-2016-beyond/",
 author": "franciskim",
@@ -29,7 +29,7 @@ author": "franciskim",
 "points": 182,
 "comments": 99,
 "rank": 2}]
-`
+
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 ## Technologies
