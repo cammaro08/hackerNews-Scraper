@@ -1,13 +1,13 @@
 # Hacker News Scraper
 This is a short command line application written in python that gets the latest posts from hacker news.
 ## Table of contents
-[General info](#general-info)
-[Screenshots](#screenshots)
-[Technologies](#technologies)
-[Setup](#setup)
-[Features](#features)
-[Status](#status)
-[Contact](#contact)
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Contact](#contact)
 ## General info
 If you love to stay up to date with what is hot in technology, read Hacker News every day.
 In order to make it more fun to read for robots (and me), I wrote a simple command line application that would output to STDOUT the top posts in JSON.
