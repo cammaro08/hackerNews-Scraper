@@ -47,7 +47,7 @@ Open up terminal and navigate to your home directory
 ## Code Examples
 In order to run the code
 - Navigate to the src folder of this project
-- type in this command `python3 hackernews.py --posts 101`
+- type in this command `python3 hackernews.py --posts 10`
 You can either use --posts or -p after hackernews.py followed by a number of posts you want to return.
 You can only requests posts from 0 - 100
 ## Features
